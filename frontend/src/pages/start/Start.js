@@ -1,5 +1,6 @@
 import React from "react";
 import "./Start.css";
+import start from "../../assets/images/start.svg";
 
 const Start = () => {
   return (
@@ -16,6 +17,7 @@ const Start = () => {
             <br />
             다른사람들과 공유하세요!
           </p>
+          <img src={start} alt="" />
           <button className="start-btn">지금 바로 시작하기</button>
         </div>
       </div>
