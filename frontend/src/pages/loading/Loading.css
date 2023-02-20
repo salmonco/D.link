@@ -1,0 +1,30 @@
+.loading-container {
+  max-width: 37.5rem;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+  margin-top: 8rem;
+}
+
+.loading-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loading-progress {
+  display: flex;
+  align-items: center;
+  width: 16.3rem;
+  height: 1.4rem;
+  background: #eeeeee;
+  border: #000000 1px solid;
+  border-radius: 0.7rem;
+  margin-bottom: 4rem;
+}
+
+.loading-current {
+  height: 100%;
+  background: #2474ff;
+  border-right: #000000 1px solid;
+  border-radius: 0.6rem;
+}
